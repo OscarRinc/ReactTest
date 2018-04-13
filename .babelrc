@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "react", "env"
+  ],
+  "plugins": [
+    ["babel-plugin-styled-components", {
+      "ssr": true
+    }],
+    [
+      "transform-object-rest-spread"
+    ],
+    [
+      "transform-class-properties"
+    ]
+  ]
+}
