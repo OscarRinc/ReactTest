@@ -65,7 +65,7 @@ class Login extends Component {
         <br />
           <Form>
             <Input placeholder="User" type="text" />
-            <Input placeholder="Password" type="text" />
+            <Input placeholder="Password" type="password" />
             <Link to="/to-do-list">
               <Button onClick={this.handleEvent} primary>join</Button>
             </Link>
